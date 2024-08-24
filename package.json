@@ -14,8 +14,6 @@
     "lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix",
     "prepare": "husky install",
     "commitlint": "--config commitlint.config.js"
-
-
   },
   "dependencies": {
     "axios": "^1.7.5",
@@ -25,6 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/prompt-cli": "^19.4.0",
     "@eslint/js": "^9.9.0",
     "@vitejs/plugin-vue": "^5.1.2",
     "eslint": "^9.9.0",
