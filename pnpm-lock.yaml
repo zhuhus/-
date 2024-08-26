@@ -36,6 +36,9 @@ importers:
       '@eslint/js':
         specifier: ^9.9.0
         version: 9.9.1
+      '@types/node':
+        specifier: ^22.5.0
+        version: 22.5.0
       '@vitejs/plugin-vue':
         specifier: ^5.1.2
         version: 5.1.2(vite@5.4.2(@types/node@22.5.0)(sass@1.77.8))(vue@3.4.38(typescript@5.5.4))
@@ -115,7 +118,7 @@ importers:
         specifier: ^0.27.4
         version: 0.27.4(@babel/parser@7.25.4)(rollup@4.21.0)(vue@3.4.38(typescript@5.5.4))
       vite:
-        specifier: ^5.4.1
+        specifier: ^5.4.2
         version: 5.4.2(@types/node@22.5.0)(sass@1.77.8)
       vite-plugin-svg-icons:
         specifier: ^2.0.1
